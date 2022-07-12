@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    background-color: black;
+    height: 60%;
+    width: 100%;
+    max-width: 425px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 16px;
+}
+
+.input-area{
+    display: flex;
+    width: 280px;
+    gap: 10px;
+}
+
+.input-area input{
+    width: 90%;
+    color: black;
+}
+
+.btn-calc{
+    background-color: rgb(226, 79, 109);
+    border: none;
+    width: 90%;
+    max-width: 280px;
+    height: 40px;
+}
+
+.btn-calc.active{
+    background-color: crimson;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding-inline: 20px;
+}
